@@ -15,6 +15,8 @@ import androidx.appcompat.widget.AppCompatTextView
 
 /**
  * Create by heyangyang on 2021/5/12.
+ * 需要注意更改view的位置后会导致view的坐标系发生变化了，所以我们的计算的规则是和action_down初始值进行比较
+ * 大家需要自己去实践理解下计算规则
  */
 
 class ScrollableView constructor(context: Context, attributeSet: AttributeSet?) :
