@@ -6,7 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start_smooth_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Smooth Scroll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <com.hyy.viewsamples.ScrollableView
+        android:id="@+id/sv_test"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@android:color/holo_red_dark"
